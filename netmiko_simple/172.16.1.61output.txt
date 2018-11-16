@@ -1,0 +1,19 @@
+Interface                  IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0         172.16.1.61     YES NVRAM  up                    up      
+GigabitEthernet0/1         10.0.0.5        YES NVRAM  up                    up      
+Loopback0                  192.168.0.1     YES NVRAM  up                    up      
+Protocol  Address          Age (min)  Hardware Addr   Type   Interface
+Internet  10.0.0.5                -   fa16.3e33.a63a  ARPA   GigabitEthernet0/1
+
+ *: interface is up
+ IHQ: pkts in input hold queue     IQD: pkts dropped from input queue
+ OHQ: pkts in output hold queue    OQD: pkts dropped from output queue
+ RXBS: rx rate (bits/sec)          RXPS: rx rate (pkts/sec)
+ TXBS: tx rate (bits/sec)          TXPS: tx rate (pkts/sec)
+ TRTL: throttle count
+
+  Interface                   IHQ       IQD       OHQ       OQD      RXBS      RXPS      TXBS      TXPS      TRTL
+-----------------------------------------------------------------------------------------------------------------
+* GigabitEthernet0/0            1         0         0         0      3000         3      3000         3         0
+* GigabitEthernet0/1            0         0         0         0         0         0         0         0         0
+* Loopback0                     0         0         0         0         0         0         0         0         0

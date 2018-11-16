@@ -1,0 +1,12 @@
+{
+  "iosv-1": {
+    "ip": "172.16.1.61",
+    "username": "cisco",
+    "password": "cisco"
+  },
+  "iosv-2": {
+    "ip": "172.16.1.62",
+    "username": "cisco",
+    "password": "cisco"
+  }
+}
